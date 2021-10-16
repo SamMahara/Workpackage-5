@@ -2,7 +2,7 @@ module ALU(
   input[7:0] A,B,
   input clk,
   input [3:0] ALU_Sel,
-  output wire ALU_out
+  output [7;0] wire  ALU_out
 );
 
 reg ALU_result;
